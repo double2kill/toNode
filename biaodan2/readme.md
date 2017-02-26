@@ -15,7 +15,7 @@ step 3：打开浏览器
 ##3. 代码说明
 ####node.js
 
-```
+```javascript
 var port = process.env.PORT || 3000  => 定义port的值
 app.listen(port)  => 监听，真正起作用监听port端口的代码
 console.log('web started on port ' + port)  => 在窗口返回信息
